@@ -1,12 +1,12 @@
-function isMorse(str) {
+export function isMorse(str) {
   return /^[.\-/ ]+$/.test(str.trim());
 }
 
-function isEnglish(str) {
+export function isEnglish(str) {
   return /^[a-zA-Z ]+$/.test(str.trim());
 }
 
-function translateToMorse(str, morse) {
+export function translateToMorse(str, morse) {
   return str
     .trim()
     .toUpperCase()
@@ -15,7 +15,7 @@ function translateToMorse(str, morse) {
     .join(" ");
 }
 
-function translateToEnglish(str, morse) {
+export function translateToEnglish(str, morse) {
   const reverseMorse = Object.fromEntries(
     Object.entries(morse).map(([key, value]) => [value, key]),
   );

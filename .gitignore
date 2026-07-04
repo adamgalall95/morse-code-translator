@@ -5,3 +5,5 @@
 
 # VS Code settings and workspace configurations
 .vscode/
+
+node_modules
