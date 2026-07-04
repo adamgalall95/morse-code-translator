@@ -1,0 +1,17 @@
+{
+  "name": "morse-code-translator",
+  "version": "1.0.0",
+  "description": "An opinionated starter template for vanilla JavaScript projects using SCSS. Comes with a mobile-first responsive system, layout utilities, dark mode support, and modern CSS normalisation — all with zero dependencies and no build configuration required beyond a SCSS compiler.",
+  "main": "app.js",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
